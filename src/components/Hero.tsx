@@ -26,7 +26,6 @@ const Hero: React.FC<HeroProps> = ({ onJoinNowClick, onBookClassClick, isDarkMod
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
             ))}
-            <span className="ml-2 text-sm opacity-90">Rated #1 Fitness Center</span>
           </div>
         </div>
         
